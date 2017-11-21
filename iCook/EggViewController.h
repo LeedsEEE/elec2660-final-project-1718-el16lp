@@ -10,4 +10,9 @@
 
 @interface EggViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIPickerView *EggStylePicker;
+@property (weak, nonatomic) IBOutlet UIPickerView *EggRunninessPicker;
+@property (weak, nonatomic) IBOutlet UITextField *EggCookingTime;
+@property (weak, nonatomic) IBOutlet UITextView *EggCookingInstructions;
+
 @end

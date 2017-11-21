@@ -160,6 +160,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="yJn-15-zW1" id="YXa-tq-f6r"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cooking time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nHC-9q-9sy">
                                 <rect key="frame" x="139" y="398" width="220" height="30"/>
@@ -181,6 +184,9 @@
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9l4-s8-oUV">
                                 <rect key="frame" x="310" y="578" width="51" height="31"/>
+                                <connections>
+                                    <action selector="MeatUnitsSwitch:" destination="yJn-15-zW1" eventType="valueChanged" id="OgD-Gg-b87"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Units" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kt-Ve-PC6">
                                 <rect key="frame" x="313" y="549" width="46" height="21"/>
@@ -231,6 +237,14 @@
                         <viewLayoutGuide key="safeArea" id="Nbf-la-mPh"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Meat" image="second" id="gGp-4y-bDJ"/>
+                    <connections>
+                        <outlet property="CookingInstructions" destination="nsP-iM-KLx" id="Jpm-kX-9bF"/>
+                        <outlet property="MeatCookingTime" destination="nHC-9q-9sy" id="2bV-jj-rTa"/>
+                        <outlet property="MeatRarenessPicker" destination="4Bm-1d-iUy" id="wae-0X-Xji"/>
+                        <outlet property="MeatTypePicker" destination="2xB-1h-uV4" id="aED-f8-SPM"/>
+                        <outlet property="MeatUnitsLabel" destination="2kt-Ve-PC6" id="SIr-oq-7ih"/>
+                        <outlet property="MeatWeight" destination="qSP-zl-xXi" id="ThF-s7-hx2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wbx-YZ-XqB" sceneMemberID="firstResponder"/>
             </objects>
@@ -293,6 +307,12 @@
                         <viewLayoutGuide key="safeArea" id="QnL-0g-lHS"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Eggs" id="T2K-47-R2t"/>
+                    <connections>
+                        <outlet property="EggCookingInstructions" destination="J9o-gg-qKJ" id="5KX-U2-uiG"/>
+                        <outlet property="EggCookingTime" destination="jTp-Ti-tnJ" id="Efq-Kk-Zr2"/>
+                        <outlet property="EggRunninessPicker" destination="5nX-Fo-R4l" id="yLV-Hf-955"/>
+                        <outlet property="EggStylePicker" destination="66k-g4-zjI" id="7cJ-a1-RPY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXI-pm-bo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
