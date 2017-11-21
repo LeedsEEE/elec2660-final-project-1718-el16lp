@@ -35,6 +35,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="83x-tB-VGO" id="6ZM-v9-W3z"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Water" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TU3-9Z-iLE">
                                 <rect key="frame" x="16" y="403" width="48" height="21"/>
@@ -50,6 +53,9 @@
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GJg-Z7-tm2">
                                 <rect key="frame" x="310" y="578" width="51" height="31"/>
+                                <connections>
+                                    <action selector="DryUnitsSwitch:" destination="83x-tB-VGO" eventType="valueChanged" id="Kyx-pz-dak"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Units" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOX-5w-Zk3">
                                 <rect key="frame" x="310" y="549" width="47" height="21"/>
@@ -71,12 +77,12 @@
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Cooking Instructions" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4Pm-sl-3IA">
                                 <rect key="frame" x="16" y="473" width="286" height="136"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pk5-lF-mPs" firstAttribute="trailing" secondItem="qqM-Ix-uiM" secondAttribute="trailing" constant="16" id="0NQ-rA-dsU"/>
                             <constraint firstItem="4Pm-sl-3IA" firstAttribute="top" secondItem="MMS-8x-18m" secondAttribute="bottom" constant="12" id="1We-oi-Sjh"/>
@@ -121,6 +127,15 @@
                         <viewLayoutGuide key="safeArea" id="pk5-lF-mPs"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dry Food" image="second" id="gXG-Vh-7Oz"/>
+                    <connections>
+                        <outlet property="DryCookingInstructions" destination="4Pm-sl-3IA" id="JMs-1g-MmG"/>
+                        <outlet property="DryCookingTime" destination="Jif-nb-sla" id="Zk3-XD-Lm0"/>
+                        <outlet property="DryFoodPicker" destination="QA7-PJ-wvq" id="pDv-Fd-bPb"/>
+                        <outlet property="DryFoodSoftnessPicker" destination="qqM-Ix-uiM" id="a42-G3-Tax"/>
+                        <outlet property="DryUnitsLabel" destination="xOX-5w-Zk3" id="UAW-VE-FZv"/>
+                        <outlet property="DryWater" destination="heg-Rl-Nnq" id="wm9-60-754"/>
+                        <outlet property="DryWeight" destination="4PP-j8-eE8" id="7VT-LW-zp0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tZy-RE-aBc" sceneMemberID="firstResponder"/>
             </objects>
@@ -175,7 +190,7 @@
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Cooking Instructions" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nsP-iM-KLx">
                                 <rect key="frame" x="16" y="473" width="286" height="136"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -249,7 +264,7 @@
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Cooking Instructions" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J9o-gg-qKJ">
                                 <rect key="frame" x="16" y="452" width="343" height="160"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DryViewController : UIViewController
+@interface DryViewController : UIViewController <UITextFieldDelegate>
 
+@property (weak, nonatomic) IBOutlet UIPickerView *DryFoodPicker;
+@property (weak, nonatomic) IBOutlet UIPickerView *DryFoodSoftnessPicker;
+@property (weak, nonatomic) IBOutlet UITextField *DryWeight;
+@property (weak, nonatomic) IBOutlet UITextField *DryWater;
+@property (weak, nonatomic) IBOutlet UITextField *DryCookingTime;
+@property (weak, nonatomic) IBOutlet UILabel *DryUnitsLabel;
+@property (weak, nonatomic) IBOutlet UITextView *DryCookingInstructions;
+
+- (IBAction)DryUnitsSwitch:(UISwitch *)sender;
 
 @end
 

@@ -26,4 +26,6 @@
 }
 
 
+- (IBAction)DryUnitsSwitch:(UISwitch *)sender {
+}
 @end
