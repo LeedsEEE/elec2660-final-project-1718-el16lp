@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  MeatViewController.m
 //  iCook
 //
 //  Created by Luke Penrose [el16lp] on 14/11/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "MeatViewController.h"
 
-@interface FirstViewController ()
+@interface MeatViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation MeatViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

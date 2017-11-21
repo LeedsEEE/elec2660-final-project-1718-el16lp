@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		2A3969C21FBB1B5C0038ADDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3969C11FBB1B5C0038ADDF /* main.m */; };
 		2A3969C51FBB1B5C0038ADDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3969C41FBB1B5C0038ADDF /* AppDelegate.m */; };
-		2A3969C81FBB1B5C0038ADDF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3969C71FBB1B5C0038ADDF /* FirstViewController.m */; };
-		2A3969CB1FBB1B5C0038ADDF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3969CA1FBB1B5C0038ADDF /* SecondViewController.m */; };
+		2A3969C81FBB1B5C0038ADDF /* DryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3969C71FBB1B5C0038ADDF /* DryViewController.m */; };
+		2A3969CB1FBB1B5C0038ADDF /* MeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3969CA1FBB1B5C0038ADDF /* MeatViewController.m */; };
 		2A3969CE1FBB1B5D0038ADDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3969CC1FBB1B5D0038ADDF /* Main.storyboard */; };
 		2A3969D01FBB1B5D0038ADDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3969CF1FBB1B5D0038ADDF /* Assets.xcassets */; };
 		2A3969D31FBB1B5D0038ADDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3969D11FBB1B5D0038ADDF /* LaunchScreen.storyboard */; };
 		2A3969DE1FBB1B5D0038ADDF /* iCookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3969DD1FBB1B5D0038ADDF /* iCookTests.m */; };
 		2A3969E91FBB1B5D0038ADDF /* iCookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3969E81FBB1B5D0038ADDF /* iCookUITests.m */; };
+		CCF5AA9A1FC44FAE006A2145 /* EggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF5AA991FC44FAE006A2145 /* EggViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +41,10 @@
 		2A3969C11FBB1B5C0038ADDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A3969C31FBB1B5C0038ADDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A3969C41FBB1B5C0038ADDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A3969C61FBB1B5C0038ADDF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		2A3969C71FBB1B5C0038ADDF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		2A3969C91FBB1B5C0038ADDF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		2A3969CA1FBB1B5C0038ADDF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2A3969C61FBB1B5C0038ADDF /* DryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DryViewController.h; sourceTree = "<group>"; };
+		2A3969C71FBB1B5C0038ADDF /* DryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DryViewController.m; sourceTree = "<group>"; };
+		2A3969C91FBB1B5C0038ADDF /* MeatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeatViewController.h; sourceTree = "<group>"; };
+		2A3969CA1FBB1B5C0038ADDF /* MeatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeatViewController.m; sourceTree = "<group>"; };
 		2A3969CD1FBB1B5D0038ADDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A3969CF1FBB1B5D0038ADDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A3969D21FBB1B5D0038ADDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,8 @@
 		2A3969E41FBB1B5D0038ADDF /* iCookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3969E81FBB1B5D0038ADDF /* iCookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCookUITests.m; sourceTree = "<group>"; };
 		2A3969EA1FBB1B5D0038ADDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF5AA981FC44FAE006A2145 /* EggViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EggViewController.h; sourceTree = "<group>"; };
+		CCF5AA991FC44FAE006A2145 /* EggViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EggViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +109,12 @@
 			children = (
 				2A3969C31FBB1B5C0038ADDF /* AppDelegate.h */,
 				2A3969C41FBB1B5C0038ADDF /* AppDelegate.m */,
-				2A3969C61FBB1B5C0038ADDF /* FirstViewController.h */,
-				2A3969C71FBB1B5C0038ADDF /* FirstViewController.m */,
-				2A3969C91FBB1B5C0038ADDF /* SecondViewController.h */,
-				2A3969CA1FBB1B5C0038ADDF /* SecondViewController.m */,
+				2A3969C61FBB1B5C0038ADDF /* DryViewController.h */,
+				2A3969C71FBB1B5C0038ADDF /* DryViewController.m */,
+				2A3969C91FBB1B5C0038ADDF /* MeatViewController.h */,
+				2A3969CA1FBB1B5C0038ADDF /* MeatViewController.m */,
+				CCF5AA981FC44FAE006A2145 /* EggViewController.h */,
+				CCF5AA991FC44FAE006A2145 /* EggViewController.m */,
 				2A3969CC1FBB1B5D0038ADDF /* Main.storyboard */,
 				2A3969CF1FBB1B5D0038ADDF /* Assets.xcassets */,
 				2A3969D11FBB1B5D0038ADDF /* LaunchScreen.storyboard */,
@@ -207,7 +212,7 @@
 		2A3969B51FBB1B5C0038ADDF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "University of Leeds";
 				TargetAttributes = {
 					2A3969BC1FBB1B5C0038ADDF = {
@@ -278,9 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3969CB1FBB1B5C0038ADDF /* SecondViewController.m in Sources */,
+				2A3969CB1FBB1B5C0038ADDF /* MeatViewController.m in Sources */,
 				2A3969C51FBB1B5C0038ADDF /* AppDelegate.m in Sources */,
-				2A3969C81FBB1B5C0038ADDF /* FirstViewController.m in Sources */,
+				2A3969C81FBB1B5C0038ADDF /* DryViewController.m in Sources */,
+				CCF5AA9A1FC44FAE006A2145 /* EggViewController.m in Sources */,
 				2A3969C21FBB1B5C0038ADDF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +351,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -353,7 +361,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -393,7 +406,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -401,7 +416,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -513,6 +533,7 @@
 				2A3969EF1FBB1B5D0038ADDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A3969F01FBB1B5D0038ADDF /* Build configuration list for PBXNativeTarget "iCookTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +542,7 @@
 				2A3969F21FBB1B5D0038ADDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A3969F31FBB1B5D0038ADDF /* Build configuration list for PBXNativeTarget "iCookUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +551,7 @@
 				2A3969F51FBB1B5D0038ADDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

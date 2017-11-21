@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  DryViewController.m
 //  iCook
 //
 //  Created by Luke Penrose [el16lp] on 14/11/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "DryViewController.h"
 
-@interface SecondViewController ()
+@interface DryViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation DryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

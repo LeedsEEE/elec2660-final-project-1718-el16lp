@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  DryViewController.h
 //  iCook
 //
 //  Created by Luke Penrose [el16lp] on 14/11/2017.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface DryViewController : UIViewController
 
 
 @end
